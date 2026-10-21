@@ -15,6 +15,7 @@ used to build Smoczy Staw, then normalized locally (trimmed, cropped, resized, r
 | `creatures/` | `creatures-items` | Gloomer and dragonfly recovered from the background-removed sheet; a stray flame fragment cropped off the Gloomer. |
 | `ui/heart*.png` | `creatures-items` | Stray fragment removed from the red heart (kept the main alpha island). |
 | `icons/` | `icons` | Trimmed, max 128 px. |
+| `icons/heads/` | `portraits` (via `portraits/`) | Leaderboard icons: each dragon's head cropped from its portrait and baked into a circle in the dragon's colour, 88 px. Made by `scripts/make-head-icons.py`. |
 | `deco/` | `decorations` | Recovered from the background-removed sheet; daisies, reeds and the stone are rectangle crops that avoid stray style-reference fragments. |
 | `tex/deep.jpg`, `tex/shallow.jpg` | `tex-deep-water`, `tex-shallow-water` | Resized to 1536 px; deep water blurred and lowered in contrast. Stretched once over the pond in game (not tiled). |
 | `tex/grass.jpg` | `tex-grass` | Mirror-tiled 2×2 into a seamless 1024 px tile. |
